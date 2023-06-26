@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73976fa4-75c2-48c8-91cb-6789837c6d4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/codingproblems/twopointers/validpalindrome/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/codingproblems/twopointers/validpalindrome/TwoPointers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/codingproblems/twopointers/validpalindrome/MainTest.java" afterDir="false" />
+    <list default="true" id="73976fa4-75c2-48c8-91cb-6789837c6d4d" name="Changes" comment="Palindrome Checks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/codingproblems/twopointers/sumofthreevalues/SumOfThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/codingproblems/twopointers/sumofthreevalues/SumOfThreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,26 +45,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.codingproblems.twopointers.sumofthreevalues" />
       <recent name="org.codingproblems.twopointers.validpalindrome" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SumOfThreeTest.findSumOfThree">
     <configuration name="MainTest.isPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GrokkingCodingInteview" />
       <extension name="coverage">
@@ -87,8 +87,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumOfThreeTest.findSumOfThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GrokkingCodingInteview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingproblems.twopointers.sumofthreevalues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.codingproblems.twopointers.sumofthreevalues" />
+      <option name="MAIN_CLASS_NAME" value="org.codingproblems.twopointers.sumofthreevalues.SumOfThreeTest" />
+      <option name="METHOD_NAME" value="findSumOfThree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SumOfThreeTest.findSumOfThree" />
         <item itemvalue="JUnit.MainTest.isPalindrome" />
       </list>
     </recent_temporary>
@@ -101,11 +118,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687688294380</updated>
-      <workItem from="1687688295524" duration="1486000" />
+      <workItem from="1687688295524" duration="2202000" />
+      <workItem from="1687779997061" duration="2582000" />
+      <workItem from="1687793889957" duration="620000" />
     </task>
+    <task id="LOCAL-00001" summary="Palindrome Checks">
+      <created>1687689952406</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687689952406</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Palindrome Checks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Palindrome Checks" />
   </component>
 </project>
