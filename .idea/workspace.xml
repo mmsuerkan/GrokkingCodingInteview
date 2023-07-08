@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73976fa4-75c2-48c8-91cb-6789837c6d4d" name="Changes" comment="Reverse Word in a String">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/codingproblems/twopointers/removeNthNode/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/codingproblems/twopointers/removeNthNode/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/codingproblems/twopointers/removeNthNode/RemoveNthNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/codingproblems/twopointers/removeNthNode/RemoveNthNodeTest.java" afterDir="false" />
+    <list default="true" id="73976fa4-75c2-48c8-91cb-6789837c6d4d" name="Changes" comment="Happy Number">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/codingproblems/fastslowpointers/cycleDetection/CycleDetection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/codingproblems/fastslowpointers/cycleDetection/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/codingproblems/fastslowpointers/cycleDetection/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/codingproblems/fastslowpointers/cycleDetection/CycleDetectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,22 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.codingproblems.twopointers.removeNthNode" />
@@ -69,55 +71,88 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.codingproblems.fastslowpointers.cycleDetection" />
+      <recent name="org.codingproblems.fastslowpointers.happyNumber" />
       <recent name="org.codingproblems.twopointers.removeNthNode" />
       <recent name="org.codingproblems.twopointers.sumofthreevalues" />
       <recent name="org.codingproblems.twopointers.validpalindrome" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.codingproblems.fastslowpointers.cycleDetection" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.RemoveNthNodeTest.removeNthLastNode">
-    <configuration name="MainTest.isPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CycleDetectionTest">
+    <configuration name="SumOfSquaredDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codingproblems.fastslowpointers.happyNumber.SumOfSquaredDigits" />
       <module name="GrokkingCodingInteview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingproblems.twopointers.validpalindrome.*" />
+          <option name="PATTERN" value="org.codingproblems.fastslowpointers.happyNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.codingproblems.twopointers.validpalindrome" />
-      <option name="MAIN_CLASS_NAME" value="org.codingproblems.twopointers.validpalindrome.MainTest" />
-      <option name="METHOD_NAME" value="isPalindrome" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CycleDetectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GrokkingCodingInteview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingproblems.fastslowpointers.cycleDetection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.codingproblems.fastslowpointers.cycleDetection" />
+      <option name="MAIN_CLASS_NAME" value="org.codingproblems.fastslowpointers.cycleDetection.CycleDetectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CycleDetectionTest.detectCycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GrokkingCodingInteview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingproblems.fastslowpointers.cycleDetection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.codingproblems.fastslowpointers.cycleDetection" />
+      <option name="MAIN_CLASS_NAME" value="org.codingproblems.fastslowpointers.cycleDetection.CycleDetectionTest" />
+      <option name="METHOD_NAME" value="detectCycle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveNthNodeTest.removeNthLastNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CycleDetectionTest.detectCycle2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GrokkingCodingInteview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingproblems.twopointers.removeNthNode.*" />
+          <option name="PATTERN" value="org.codingproblems.fastslowpointers.cycleDetection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.codingproblems.twopointers.removeNthNode" />
-      <option name="MAIN_CLASS_NAME" value="org.codingproblems.twopointers.removeNthNode.RemoveNthNodeTest" />
-      <option name="METHOD_NAME" value="removeNthLastNode" />
+      <option name="PACKAGE_NAME" value="org.codingproblems.fastslowpointers.cycleDetection" />
+      <option name="MAIN_CLASS_NAME" value="org.codingproblems.fastslowpointers.cycleDetection.CycleDetectionTest" />
+      <option name="METHOD_NAME" value="detectCycle2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfThreeTest.findSumOfThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HappyNumberTest.isHappyNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GrokkingCodingInteview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingproblems.twopointers.sumofthreevalues.*" />
+          <option name="PATTERN" value="org.codingproblems.fastslowpointers.happyNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.codingproblems.twopointers.sumofthreevalues" />
-      <option name="MAIN_CLASS_NAME" value="org.codingproblems.twopointers.sumofthreevalues.SumOfThreeTest" />
-      <option name="METHOD_NAME" value="findSumOfThree" />
+      <option name="PACKAGE_NAME" value="org.codingproblems.fastslowpointers.happyNumber" />
+      <option name="MAIN_CLASS_NAME" value="org.codingproblems.fastslowpointers.happyNumber.HappyNumberTest" />
+      <option name="METHOD_NAME" value="isHappyNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,9 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RemoveNthNodeTest.removeNthLastNode" />
-        <item itemvalue="JUnit.SumOfThreeTest.findSumOfThree" />
-        <item itemvalue="JUnit.MainTest.isPalindrome" />
+        <item itemvalue="JUnit.CycleDetectionTest" />
+        <item itemvalue="JUnit.CycleDetectionTest.detectCycle2" />
+        <item itemvalue="JUnit.CycleDetectionTest.detectCycle" />
+        <item itemvalue="JUnit.HappyNumberTest.isHappyNumber" />
+        <item itemvalue="Application.SumOfSquaredDigits" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687689952406</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Remove Nth Node from End of List">
+      <created>1688812954869</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688812954869</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Happy Number">
+      <created>1688815167961</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688815167961</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +209,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Palindrome Checks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Palindrome Checks" />
+    <MESSAGE value="Remove Nth Node from End of List" />
+    <MESSAGE value="Happy Number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Happy Number" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/codingproblems/fastslowpointers/happyNumber/HappyNumber.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
