@@ -2,7 +2,7 @@ package org.codingproblems.slidingwindow.repeatedDnaSquences;
 
 import java.util.*;
 
-public class FindRepeatedSequences {
+class FindRepeatedSequences {
 
     public static Set<String> findRepeatedSequences(String s, int k) {
 
@@ -50,4 +50,7 @@ public class FindRepeatedSequences {
         }
         return output;
     }
+
+    // Driver code
+
 }

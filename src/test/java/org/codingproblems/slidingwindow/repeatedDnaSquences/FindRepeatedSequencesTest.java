@@ -2,25 +2,22 @@ package org.codingproblems.slidingwindow.repeatedDnaSquences;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.HashSet;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class FindRepeatedSequencesTest {
 
-    @Test
-    void findRepeatedSequences() {
 
-        String s = "AGCTGAAAGCTTAGCTG";
-        int k = 5;
-        assertEquals(1, FindRepeatedSequences.findRepeatedSequences(s, k).size());
-    }
+
 
     @Test
-    void findRepeatedSequences2() {
-
-        String s = "AAAAAAAAAAAAA";
+    void testFindRepeatedSequences() {
+        String s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
         int k = 10;
-        assertEquals(1, FindRepeatedSequences.findRepeatedSequences(s, k).size());
+        HashSet<Object> repeatedObjects = new HashSet<>(2);
+        repeatedObjects.add("AAAAACCCCC");
+        repeatedObjects.add("CCCCCAAAAA");
+        assertEquals(repeatedObjects, FindRepeatedSequences.findRepeatedSequences(s, k));
     }
-
-
 }
