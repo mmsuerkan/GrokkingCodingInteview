@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73976fa4-75c2-48c8-91cb-6789837c6d4d" name="Changes" comment="Palindrome Checks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/codingproblems/twopointers/sumofthreevalues/SumOfThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/codingproblems/twopointers/sumofthreevalues/SumOfThreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="73976fa4-75c2-48c8-91cb-6789837c6d4d" name="Changes" comment="Reverse Word in a String">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/codingproblems/twopointers/removeNthNode/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/codingproblems/twopointers/removeNthNode/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/codingproblems/twopointers/removeNthNode/RemoveNthNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/codingproblems/twopointers/removeNthNode/RemoveNthNodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,15 +62,19 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.codingproblems.twopointers.removeNthNode" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.codingproblems.twopointers.removeNthNode" />
       <recent name="org.codingproblems.twopointers.sumofthreevalues" />
       <recent name="org.codingproblems.twopointers.validpalindrome" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SumOfThreeTest.findSumOfThree">
+  <component name="RunManager" selected="JUnit.RemoveNthNodeTest.removeNthLastNode">
     <configuration name="MainTest.isPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GrokkingCodingInteview" />
       <extension name="coverage">
@@ -82,6 +86,22 @@
       <option name="PACKAGE_NAME" value="org.codingproblems.twopointers.validpalindrome" />
       <option name="MAIN_CLASS_NAME" value="org.codingproblems.twopointers.validpalindrome.MainTest" />
       <option name="METHOD_NAME" value="isPalindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveNthNodeTest.removeNthLastNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GrokkingCodingInteview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codingproblems.twopointers.removeNthNode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.codingproblems.twopointers.removeNthNode" />
+      <option name="MAIN_CLASS_NAME" value="org.codingproblems.twopointers.removeNthNode.RemoveNthNodeTest" />
+      <option name="METHOD_NAME" value="removeNthLastNode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RemoveNthNodeTest.removeNthLastNode" />
         <item itemvalue="JUnit.SumOfThreeTest.findSumOfThree" />
         <item itemvalue="JUnit.MainTest.isPalindrome" />
       </list>
