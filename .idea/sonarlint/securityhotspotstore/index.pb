@@ -32,8 +32,6 @@ Nsrc/main/java/org/codingproblems/fastslowpointers/happyNumber/HappyNumber.java
 Xsrc/test/java/org/codingproblems/fastslowpointers/cycleDetection/CycleDetectionTest.java,f\3\f30f5cd85572e5c171fdd5648b27e89d32f864fc
 „
 Tsrc/main/java/org/codingproblems/fastslowpointers/cycleDetection/CycleDetection.java,c\e\ce03f05821e771115992270ceb83e5b81e25a862
-„
-Tsrc/main/java/org/codingproblems/fastslowpointers/middleofLinkedList/MiddleNode.java,8\f\8f33105d1feaa22126e6b8046cf1e0cb49289b7c
 ˆ
 Xsrc/test/java/org/codingproblems/fastslowpointers/middleofLinkedList/MiddleNodeTest.java,2\d\2d17643dcec9e324feb16b7a18713c87e5a454f3
 ~
