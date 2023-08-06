@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73976fa4-75c2-48c8-91cb-6789837c6d4d" name="Changes" comment="FindRepeatedSequences">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/codingproblems/slidingwindow/findMaximum/SlidingWindowMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/codingproblems/slidingwindow/findMaximum/SlidingWindowMaximumTest.java" afterDir="false" />
+    <list default="true" id="73976fa4-75c2-48c8-91cb-6789837c6d4d" name="Changes" comment="Find Sliding Window maximum">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/codingproblems/fastslowpointers/findDuplicateNumber/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/codingproblems/fastslowpointers/findDuplicateNumber/FindDuplicateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codingproblems/slidingwindow/repeatedDnaSquences/FindRepeatedSequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codingproblems/slidingwindow/repeatedDnaSquences/FindRepeatedSequences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/codingproblems/slidingwindow/repeatedDnaSquences/FindRepeatedSequencesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/codingproblems/slidingwindow/repeatedDnaSquences/FindRepeatedSequencesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +30,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2Rh34XObPsuXR7AWvJ3yhPDP8W9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -60,6 +54,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -76,73 +74,75 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.codingproblems.fastslowpointers.findDuplicateNumber" />
       <recent name="org.codingproblems.slidingwindow.findMaximum" />
       <recent name="org.codingproblems.slidingwindow.repeatedDnaSquences" />
       <recent name="org.codingproblems.fastslowpointers.middleofLinkedList" />
       <recent name="org.codingproblems.fastslowpointers.cycleDetection" />
-      <recent name="org.codingproblems.fastslowpointers.happyNumber" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.codingproblems.fastslowpointers.cycleDetection" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SlidingWindowMaximumTest.findMaxSlidingWindow">
-    <configuration name="FindRepeatedSequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.codingproblems.slidingwindow.repeatedDnaSquences.FindRepeatedSequences" />
+  <component name="RunManager" selected="JUnit.FindDuplicateTest.findDuplicate3">
+    <configuration name="FindDuplicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GrokkingCodingInteview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingproblems.slidingwindow.repeatedDnaSquences.*" />
+          <option name="PATTERN" value="org.codingproblems.fastslowpointers.findDuplicateNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.codingproblems.fastslowpointers.findDuplicateNumber" />
+      <option name="MAIN_CLASS_NAME" value="org.codingproblems.fastslowpointers.findDuplicateNumber.FindDuplicateTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindRepeatedSequencesTest.findRepeatedSequences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindDuplicateTest.findDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GrokkingCodingInteview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingproblems.slidingwindow.repeatedDnaSquences.*" />
+          <option name="PATTERN" value="org.codingproblems.fastslowpointers.findDuplicateNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.codingproblems.slidingwindow.repeatedDnaSquences" />
-      <option name="MAIN_CLASS_NAME" value="org.codingproblems.slidingwindow.repeatedDnaSquences.FindRepeatedSequencesTest" />
-      <option name="METHOD_NAME" value="findRepeatedSequences" />
+      <option name="PACKAGE_NAME" value="org.codingproblems.fastslowpointers.findDuplicateNumber" />
+      <option name="MAIN_CLASS_NAME" value="org.codingproblems.fastslowpointers.findDuplicateNumber.FindDuplicateTest" />
+      <option name="METHOD_NAME" value="findDuplicate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindRepeatedSequencesTest.testFindRepeatedSequences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindDuplicateTest.findDuplicate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GrokkingCodingInteview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingproblems.slidingwindow.repeatedDnaSquences.*" />
+          <option name="PATTERN" value="org.codingproblems.fastslowpointers.findDuplicateNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.codingproblems.slidingwindow.repeatedDnaSquences" />
-      <option name="MAIN_CLASS_NAME" value="org.codingproblems.slidingwindow.repeatedDnaSquences.FindRepeatedSequencesTest" />
-      <option name="METHOD_NAME" value="testFindRepeatedSequences" />
+      <option name="PACKAGE_NAME" value="org.codingproblems.fastslowpointers.findDuplicateNumber" />
+      <option name="MAIN_CLASS_NAME" value="org.codingproblems.fastslowpointers.findDuplicateNumber.FindDuplicateTest" />
+      <option name="METHOD_NAME" value="findDuplicate2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlidingWindowMaximumTest.findMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindDuplicateTest.findDuplicate3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GrokkingCodingInteview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.codingproblems.slidingwindow.findMaximum.*" />
+          <option name="PATTERN" value="org.codingproblems.fastslowpointers.findDuplicateNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.codingproblems.slidingwindow.findMaximum" />
-      <option name="MAIN_CLASS_NAME" value="org.codingproblems.slidingwindow.findMaximum.SlidingWindowMaximumTest" />
-      <option name="METHOD_NAME" value="findMax" />
+      <option name="PACKAGE_NAME" value="org.codingproblems.fastslowpointers.findDuplicateNumber" />
+      <option name="MAIN_CLASS_NAME" value="org.codingproblems.fastslowpointers.findDuplicateNumber.FindDuplicateTest" />
+      <option name="METHOD_NAME" value="findDuplicate3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindDuplicateTest.findDuplicate3" />
+        <item itemvalue="JUnit.FindDuplicateTest.findDuplicate" />
+        <item itemvalue="JUnit.FindDuplicateTest" />
+        <item itemvalue="JUnit.FindDuplicateTest.findDuplicate2" />
         <item itemvalue="JUnit.SlidingWindowMaximumTest.findMaxSlidingWindow" />
-        <item itemvalue="JUnit.SlidingWindowMaximumTest.findMax" />
-        <item itemvalue="JUnit.FindRepeatedSequencesTest.testFindRepeatedSequences" />
-        <item itemvalue="Application.FindRepeatedSequences" />
-        <item itemvalue="JUnit.FindRepeatedSequencesTest.findRepeatedSequences" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +185,11 @@
       <workItem from="1687688295524" duration="2202000" />
       <workItem from="1687779997061" duration="2582000" />
       <workItem from="1687793889957" duration="620000" />
+      <workItem from="1688901540271" duration="872000" />
+      <workItem from="1688966395981" duration="248000" />
+      <workItem from="1689100152165" duration="16000" />
+      <workItem from="1691328900215" duration="343000" />
+      <workItem from="1691329388114" duration="693000" />
     </task>
     <task id="LOCAL-00001" summary="Palindrome Checks">
       <created>1687689952406</created>
@@ -228,7 +233,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688820505858</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Find Repeated Sequences">
+      <created>1688822291454</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688822291454</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Find Sliding Window maximum">
+      <created>1688822316031</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688822316031</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +260,9 @@
     <MESSAGE value="Cycle Detection" />
     <MESSAGE value="Middle of the LinkedList" />
     <MESSAGE value="FindRepeatedSequences" />
-    <option name="LAST_COMMIT_MESSAGE" value="FindRepeatedSequences" />
+    <MESSAGE value="Find Repeated Sequences" />
+    <MESSAGE value="Find Sliding Window maximum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find Sliding Window maximum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -255,6 +276,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/codingproblems/slidingwindow/repeatedDnaSquences/FindRepeatedSequences.java</url>
           <line>8</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/codingproblems/fastslowpointers/findDuplicateNumber/FindDuplicate.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
